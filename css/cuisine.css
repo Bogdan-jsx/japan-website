@@ -1,0 +1,23 @@
+p {
+    text-indent: 50px;
+}
+
+img {
+    margin: 15px;
+}
+
+.img-1 {
+    width: 530px;
+}
+
+.img-2 {
+    width: 635px;
+}
+
+.img-3, .img-4 {
+    width: 625px;
+}
+
+.img-5 {
+    width: 660px;
+}

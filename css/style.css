@@ -93,3 +93,11 @@ main {
 .end {
     margin-top: 40px;
 }
+
+.image-right {
+    float: right;
+}
+
+.image-left {
+    float: left;
+}
