@@ -1,0 +1,17 @@
+.introduction {
+    margin-bottom: 40px;
+}
+
+#img-1 {
+    width: 485px;
+    float: right;
+}
+
+.test-link {
+    color: #343434;
+    text-decoration: underline;
+}
+
+.test-text {
+    margin-top: 40px;
+}
