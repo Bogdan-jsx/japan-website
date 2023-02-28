@@ -21,7 +21,7 @@ input, label {
     font-family: 'Marck Script', cursive;
 }
 
-#results {
+#results, .wrong-answers {
     display: none;
 
     margin-top: 30px;

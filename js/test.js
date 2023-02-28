@@ -2,6 +2,7 @@ const rightAnswers = ["c", "b", "a", "a", "d", "c", "a", "c", "d"];
 
 const form = document.querySelector("form");
 const resultsElem = document.querySelector("#results");
+const wrongAnswersElem = document.querySelector(".wrong-answers");
 
 form.onsubmit = (e) => {
     e.preventDefault();
@@ -17,8 +18,15 @@ form.onsubmit = (e) => {
 
     form.reset();
 
-    resultsElem.innerHTML = `Правильних відповідей: ${9 - wrongAnswers.length}/9. Запитання на які було дано неправильну відповідь: ${wrongAnswers.join(", ")}.`;
+    resultsElem.innerHTML = `Правильних відповідей: ${9 - wrongAnswers.length}/9`;
     resultsElem.style.display = "block";
+
+    if (wrongAnswers.length > 0) {
+        wrongAnswersElem.innerHTML = `Запитання на які було дано неправильну відповідь: ${wrongAnswers.join(", ")}.`
+
+        wrongAnswersElem.style.display = "block"
+    }
+
     window.scrollTo({
         top: document.body.scrollHeight,
         behavior: "smooth",
