@@ -174,14 +174,14 @@ main {
     background-color: white;
     display: block;
 
-    transition: all .3s;
+    transition: opacity .3s;
 }
 
 .loader > img {
     margin-left: calc((100vw - 489px) / 2);
     margin-top: calc((100vh - 289px) / 2);
 
-    transition: all .3s;
+    transition: opacity .3s;
 }
 
 /* Media */
