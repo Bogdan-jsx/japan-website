@@ -243,8 +243,9 @@ main {
     }
 
     body {
-        background-size: calc(cover + 15%);
-        background-position: bottom;
+        height: 115vh;
+        background-size: cover;
+        background-position: top;
         background-attachment: fixed;
     }
 }
