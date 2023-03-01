@@ -2,22 +2,34 @@ p {
     text-indent: 50px;
 }
 
-img {
-    margin: 15px;
-}
-
 .img-1 {
-    width: 530px;
+    width: 40.8%;
+    min-width: 295px;
 }
 
 .img-2 {
-    width: 635px;
+    width: 48.8%;
+    min-width: 300px;
 }
 
 .img-3, .img-4 {
-    width: 625px;
+    width: 48%;
+    min-width: 295px;
 }
 
 .img-5 {
-    width: 660px;
+    width: 50.8%;
+    min-width: 315px;
+}
+
+
+/* Media */
+
+
+@media screen and (max-width: 570px) {
+    .img-1, .img-2, .img-3, .img-4, .img-5 {
+        width: 100%;
+        min-width: 0px;
+        margin: 20px 0 20px 0;
+    }
 }

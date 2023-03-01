@@ -2,9 +2,10 @@
     margin-bottom: 40px;
 }
 
-#img-1 {
-    width: 485px;
-    float: right;
+.img-1 {
+    /* width: 485px; */
+    width: 37.3%;
+    min-width: 320px;
 }
 
 .test-link {
@@ -12,6 +13,14 @@
     text-decoration: underline;
 }
 
-.test-text {
-    margin-top: 40px;
+
+/* Media */
+
+
+@media screen and (max-width: 570px) {
+    .img-1 {
+        width: 100%;
+        min-width: 0px;
+        margin: 20px 0 20px 0;
+    }
 }

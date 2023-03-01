@@ -2,10 +2,19 @@ p {
     text-indent: 50px;
 }
 
-img {
-    margin: 15px;
+.img-1 {
+    width: 43%;
+    min-width: 370px;
 }
 
-.img-1 {
-    width: 560px;
+
+/* Media */
+
+
+@media screen and (max-width: 635px) {
+    .img-1 {
+        width: 100%;
+        min-width: 0px;
+        margin: 20px 0 20px 0;
+    }
 }

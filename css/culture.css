@@ -2,27 +2,39 @@ p {
     text-indent: 50px;
 }
 
-img {
-    margin: 15px;
-}
-
 .img-1 {
-    width: 620px;
+    width: 47.5%;
+    min-width: 250px;
 }
 
 .img-2 {
-    width: 540px;
+    width: 41.5%;
+    min-width: 220px;
 }
 
 .img-3 {
-    width: 700px;
+    width: 53.8%;
+    min-width: 285px;
 }
 
 .img-4 {
-    width: 420px;
+    width: 32.3%;
+    min-width: 265px;
 }
 
 .img-5 {
-    width: 500px;
+    width: 38.5%;
+    min-width: 205px;
 }
 
+
+/* Media */
+
+
+@media screen and (max-width: 540px) {
+    .img-1, .img-2, .img-3, .img-4, .img-5 {
+        width: 100%;
+        min-width: 0px;
+        margin: 20px 0 20px 0;
+    }
+}
