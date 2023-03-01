@@ -4,7 +4,7 @@ const navElem = document.querySelector("nav");
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) 
 {
-    return;
+    window.onscroll = false;
 } else {
     window.onscroll = () => {
         if (window.innerWidth <= 1150) return;
