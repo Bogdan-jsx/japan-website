@@ -243,8 +243,8 @@ main {
     }
 
     body {
-        background-size: cover;
-        background-position: center;
+        background-size: 115%;
+        background-position: bottom;
         background-attachment: fixed;
     }
 }
