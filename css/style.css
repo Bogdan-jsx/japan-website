@@ -243,8 +243,8 @@ main {
     }
 
     body {
-        height: 115vh;
-        background-size: 400%;
+        height: 110vh;
+        background-size: cover;
         background-position: top;
         background-attachment: fixed;
     }
